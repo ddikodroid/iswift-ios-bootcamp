@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8C06922715671700DC0037 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C06912715671700DC0037 /* Home.storyboard */; };
+		2D8C06942715676C00DC0037 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C06932715676C00DC0037 /* HomeViewController.swift */; };
+		2D8C069827156ED300DC0037 /* CovidNewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C069727156ED300DC0037 /* CovidNewsViewCell.swift */; };
+		2D8C069A2715718E00DC0037 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C06992715718E00DC0037 /* UIColorExtensions.swift */; };
+		2D8C069C2715789600DC0037 /* TopNewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C069B2715789600DC0037 /* TopNewsViewCell.swift */; };
+		2D8C069E27158D9B00DC0037 /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C069D27158D9B00DC0037 /* NewsViewCell.swift */; };
 		2DDFB7F0271561BC00AD0DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDFB7EF271561BC00AD0DC3 /* AppDelegate.swift */; };
 		2DDFB7F2271561BC00AD0DC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDFB7F1271561BC00AD0DC3 /* SceneDelegate.swift */; };
 		2DDFB7F4271561BC00AD0DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDFB7F3271561BC00AD0DC3 /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D8C06912715671700DC0037 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		2D8C06932715676C00DC0037 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2D8C069727156ED300DC0037 /* CovidNewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidNewsViewCell.swift; sourceTree = "<group>"; };
+		2D8C06992715718E00DC0037 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		2D8C069B2715789600DC0037 /* TopNewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsViewCell.swift; sourceTree = "<group>"; };
+		2D8C069D27158D9B00DC0037 /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
 		2DDFB7EC271561BC00AD0DC3 /* uikit-news-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uikit-news-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDFB7EF271561BC00AD0DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DDFB7F1271561BC00AD0DC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +75,12 @@
 				2DDFB7F8271561BF00AD0DC3 /* Assets.xcassets */,
 				2DDFB7FA271561BF00AD0DC3 /* LaunchScreen.storyboard */,
 				2DDFB7FD271561BF00AD0DC3 /* Info.plist */,
+				2D8C06912715671700DC0037 /* Home.storyboard */,
+				2D8C06932715676C00DC0037 /* HomeViewController.swift */,
+				2D8C069727156ED300DC0037 /* CovidNewsViewCell.swift */,
+				2D8C06992715718E00DC0037 /* UIColorExtensions.swift */,
+				2D8C069B2715789600DC0037 /* TopNewsViewCell.swift */,
+				2D8C069D27158D9B00DC0037 /* NewsViewCell.swift */,
 			);
 			path = "uikit-news-app";
 			sourceTree = "<group>";
@@ -128,6 +146,7 @@
 				2DDFB7FC271561BF00AD0DC3 /* LaunchScreen.storyboard in Resources */,
 				2DDFB7F9271561BF00AD0DC3 /* Assets.xcassets in Resources */,
 				2DDFB7F7271561BC00AD0DC3 /* Main.storyboard in Resources */,
+				2D8C06922715671700DC0037 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8C069C2715789600DC0037 /* TopNewsViewCell.swift in Sources */,
 				2DDFB7F4271561BC00AD0DC3 /* ViewController.swift in Sources */,
 				2DDFB7F0271561BC00AD0DC3 /* AppDelegate.swift in Sources */,
 				2DDFB7F2271561BC00AD0DC3 /* SceneDelegate.swift in Sources */,
+				2D8C069A2715718E00DC0037 /* UIColorExtensions.swift in Sources */,
+				2D8C069E27158D9B00DC0037 /* NewsViewCell.swift in Sources */,
+				2D8C069827156ED300DC0037 /* CovidNewsViewCell.swift in Sources */,
+				2D8C06942715676C00DC0037 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
